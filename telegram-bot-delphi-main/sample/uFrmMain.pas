@@ -108,7 +108,7 @@ end;
 
 procedure TForm1.FormCreate(Sender: TObject);
 begin
-  EdtTokenBot := '6119846027:AAGIa8DzPCzAq0EIp7aySpbZqM4iYHZX3LI';
+  EdtTokenBot := '';
   EdtUserId := '-887946958';
   FTelegram := TTelegramAPI.New();
   FTelegram
